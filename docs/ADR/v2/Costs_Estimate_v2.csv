@@ -1,0 +1,19 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,62.400000000000006,748.80,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,VPN Connection,0,0,0.00,USD,,Working days per month (22)
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,32.89,394.68,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,AWS Fargate,0,1.77,21.24,USD,,"Operating system (Linux), CPU Architecture (x86), Average duration (1 hours), Number of tasks or pods (2 per day), Amount of ephemeral storage allocated for Amazon ECS (20 GB), Amount of memory allocated (2 GB)"
+My Estimate,US East (N. Virginia),,Amazon DocumentDB (with MongoDB compatibility),0,27.2376,326.85,USD,,"Number of vCPUs per Node (for all Nodes in shard) (2), Quantity (2), Server utilization (180 Hours/Month), Instance type (db.t4g.medium)"
+My Estimate,US East (N. Virginia),,AWS Secrets Manager,0,0.4,4.80,USD,,"Number of secrets (1), Average duration of each secret (30 days), Number of API calls (1 per month)"
+My Estimate,US East (N. Virginia),,Amazon Elastic Container Registry,0,0.1,1.20,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), Amount of data stored (1 GB per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

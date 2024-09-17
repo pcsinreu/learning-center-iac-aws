@@ -1,0 +1,33 @@
+{
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+  },
+  "editor.defaultFormatter": "trunk.io",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "files.watcherExclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "terraform.experimentalFeatures.validateOnSave": true,
+  "terraform.languageServer.ignoreSingleFileWarning": true,
+  "tfsec.excludedPaths": [
+    ".trunk/"
+  ],
+  "trunk.showPreexistingIssues": false
+}

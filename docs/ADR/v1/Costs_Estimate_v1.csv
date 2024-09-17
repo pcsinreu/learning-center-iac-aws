@@ -1,0 +1,22 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+210,62.78,963.36,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,15.184,182.21,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (t3.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,DynamoDB provisioned capacity,210,13.76,375.12,USD,,"Table class (Standard), Average item size (all attributes) (10 KB), Write reserved capacity term (1 year), Read reserved capacity term (1 year), Data storage size (1 GB)"
+My Estimate,US East (N. Virginia),,DynamoDB Backup and restore,0,0.45,5.40,USD,,"On-demand backup data storage (1 GB), Point-In-Time Recovery (PITR) data storage (1 GB), Table data restored (1 GB)"
+My Estimate,US East (N. Virginia),,DynamoDB Data export to Amazon S3,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,DynamoDB Data Import from Amazon S3,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,AWS Secrets Manager,0,0.4,4.80,USD,,"Number of secrets (1), Average duration of each secret (30 days), Number of API calls (50 per month)"
+My Estimate,US East (N. Virginia),,Amazon Elastic Container Registry,0,0.1,1.20,USD,,Amount of data stored (1 GB per month)
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,32.89,394.68,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
